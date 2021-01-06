@@ -8,10 +8,13 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+<<<<<<< HEAD
 #define DIM1 15
 #define DIM2 20
 #define MIN_RAND 0
 #define MAX_RAND 100
+=======
+>>>>>>> 528e4d1feb6a93beebd21175baf8d374d4b49b89
 
 /**
  * Affiche l'état de la grille à un moment donné
@@ -20,7 +23,11 @@
  * @param dim1 Dimension 1
  * @param dim2 Dimension 2
  */
+<<<<<<< HEAD
 void affiche(char mat[][DIM2], int dim1);
+=======
+void affiche(int* mat, int dim1, int dim2);
+>>>>>>> 528e4d1feb6a93beebd21175baf8d374d4b49b89
 
 int random_number(int min, int max);
 

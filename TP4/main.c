@@ -38,6 +38,7 @@ int main(){
 }
 
 
+
 void affiche(char mat[][DIM2], int dim1){
 	int i, j;
 	// On parcours le tableau et on affiche le bon caractère en fonction de ce qu'on trouve
@@ -213,3 +214,4 @@ void chemin(char mat[][DIM2], int dim1, int xa, int ya){
 	// On rempli la case avec une étoile
 	mat[y][x] = '*';
 }
+
